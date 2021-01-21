@@ -1,1 +1,1465 @@
 print("main")
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local main = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local islandsguibywYn5984 = Instance.new("TextButton")
+local islandsgui2 = Instance.new("TextButton")
+local darkhub = Instance.new("TextButton")
+local AllStarTowerDefenseHackwithautofarm = Instance.new("TextButton")
+local DungeonQuestHackWinclickmeingametouse = Instance.new("TextButton")
+local none = Instance.new("TextButton")
+local none_2 = Instance.new("TextButton")
+local none_3 = Instance.new("TextButton")
+local none_4 = Instance.new("TextButton")
+local none_5 = Instance.new("TextButton")
+local none_6 = Instance.new("TextButton")
+local none_7 = Instance.new("TextButton")
+local none_8 = Instance.new("TextButton")
+local none_9 = Instance.new("TextButton")
+local none_10 = Instance.new("TextButton")
+local none_11 = Instance.new("TextButton")
+local none_12 = Instance.new("TextButton")
+local none_13 = Instance.new("TextButton")
+local none_14 = Instance.new("TextButton")
+local none_15 = Instance.new("TextButton")
+local none_16 = Instance.new("TextButton")
+local none_17 = Instance.new("TextButton")
+local none_18 = Instance.new("TextButton")
+local none_19 = Instance.new("TextButton")
+local none_20 = Instance.new("TextButton")
+local none_21 = Instance.new("TextButton")
+local none_22 = Instance.new("TextButton")
+local none_23 = Instance.new("TextButton")
+local none_24 = Instance.new("TextButton")
+local none_25 = Instance.new("TextButton")
+local none_26 = Instance.new("TextButton")
+local none_27 = Instance.new("TextButton")
+local none_28 = Instance.new("TextButton")
+local none_29 = Instance.new("TextButton")
+local none_30 = Instance.new("TextButton")
+local none_31 = Instance.new("TextButton")
+local none_32 = Instance.new("TextButton")
+local none_33 = Instance.new("TextButton")
+local none_34 = Instance.new("TextButton")
+local none_35 = Instance.new("TextButton")
+local none_36 = Instance.new("TextButton")
+local none_37 = Instance.new("TextButton")
+local none_38 = Instance.new("TextButton")
+local none_39 = Instance.new("TextButton")
+local none_40 = Instance.new("TextButton")
+local none_41 = Instance.new("TextButton")
+local none_42 = Instance.new("TextButton")
+local none_43 = Instance.new("TextButton")
+local none_44 = Instance.new("TextButton")
+local none_45 = Instance.new("TextButton")
+local none_46 = Instance.new("TextButton")
+local none_47 = Instance.new("TextButton")
+local none_48 = Instance.new("TextButton")
+local none_49 = Instance.new("TextButton")
+local none_50 = Instance.new("TextButton")
+local none_51 = Instance.new("TextButton")
+local none_52 = Instance.new("TextButton")
+local none_53 = Instance.new("TextButton")
+local none_54 = Instance.new("TextButton")
+local none_55 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+
+--Properties:
+
+main.Name = "main"
+main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Name = "Frame"
+Frame.Parent = main
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.0342219435, 0, 0.151394412, 0)
+Frame.Size = UDim2.new(0, 409, 0, 291)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.250
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.110024452, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 319, 0, 32)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Hack hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0537897311, 0, 0.872852206, 0)
+TextLabel_2.Size = UDim2.new(0, 156, 0, 25)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "By elite gaming"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 0.700
+TextBox.Position = UDim2.new(0.0684596598, 0, 0, 0)
+TextBox.Size = UDim2.new(0, 113, 0, 32)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "search"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.838630795, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 45, 0, 32)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.109965637, 0)
+ScrollingFrame.Size = UDim2.new(0, 409, 0, 220)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 20, 0)
+ScrollingFrame.ScrollBarThickness = 0
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 2)
+
+islandsguibywYn5984.Name = "islands gui by wYn#5984"
+islandsguibywYn5984.Parent = ScrollingFrame
+islandsguibywYn5984.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+islandsguibywYn5984.Position = UDim2.new(0, 0, 0.0180412363, 0)
+islandsguibywYn5984.Size = UDim2.new(1, 0, 0, 50)
+islandsguibywYn5984.Font = Enum.Font.SourceSans
+islandsguibywYn5984.Text = "Islands GUI by wYn#5984 (added 1/3/2021)"
+islandsguibywYn5984.TextColor3 = Color3.fromRGB(0, 0, 0)
+islandsguibywYn5984.TextScaled = true
+islandsguibywYn5984.TextSize = 14.000
+islandsguibywYn5984.TextWrapped = true
+
+islandsgui2.Name = "islands gui 2"
+islandsgui2.Parent = ScrollingFrame
+islandsgui2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+islandsgui2.Position = UDim2.new(0, 0, -0.0134020615, 0)
+islandsgui2.Size = UDim2.new(1, 0, 0, 50)
+islandsgui2.Font = Enum.Font.SourceSans
+islandsgui2.Text = "Islands gui 2 (added 1/4/2021)"
+islandsgui2.TextColor3 = Color3.fromRGB(0, 0, 0)
+islandsgui2.TextScaled = true
+islandsgui2.TextSize = 14.000
+islandsgui2.TextWrapped = true
+
+darkhub.Name = "dark hub"
+darkhub.Parent = ScrollingFrame
+darkhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+darkhub.Position = UDim2.new(0, 0, 0.0180412363, 0)
+darkhub.Size = UDim2.new(1, 0, 0, 50)
+darkhub.Font = Enum.Font.SourceSans
+darkhub.Text = "dark hub (added 1/4/2021)"
+darkhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+darkhub.TextScaled = true
+darkhub.TextSize = 14.000
+darkhub.TextWrapped = true
+
+AllStarTowerDefenseHackwithautofarm.Name = "All Star Tower Defense Hack with auto farm"
+AllStarTowerDefenseHackwithautofarm.Parent = ScrollingFrame
+AllStarTowerDefenseHackwithautofarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AllStarTowerDefenseHackwithautofarm.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+AllStarTowerDefenseHackwithautofarm.Size = UDim2.new(1, 0, 0, 50)
+AllStarTowerDefenseHackwithautofarm.Font = Enum.Font.SourceSans
+AllStarTowerDefenseHackwithautofarm.Text = "All Star Tower Defense Hack with auto farm"
+AllStarTowerDefenseHackwithautofarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+AllStarTowerDefenseHackwithautofarm.TextScaled = true
+AllStarTowerDefenseHackwithautofarm.TextSize = 14.000
+AllStarTowerDefenseHackwithautofarm.TextWrapped = true
+
+DungeonQuestHackWinclickmeingametouse.Name = "Dungeon Quest Hack Win click mein game to use"
+DungeonQuestHackWinclickmeingametouse.Parent = ScrollingFrame
+DungeonQuestHackWinclickmeingametouse.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DungeonQuestHackWinclickmeingametouse.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+DungeonQuestHackWinclickmeingametouse.Size = UDim2.new(1, 0, 0, 50)
+DungeonQuestHackWinclickmeingametouse.Font = Enum.Font.SourceSans
+DungeonQuestHackWinclickmeingametouse.Text = "Dungeon Quest Hack Win click mein game to use"
+DungeonQuestHackWinclickmeingametouse.TextColor3 = Color3.fromRGB(0, 0, 0)
+DungeonQuestHackWinclickmeingametouse.TextScaled = true
+DungeonQuestHackWinclickmeingametouse.TextSize = 14.000
+DungeonQuestHackWinclickmeingametouse.TextWrapped = true
+
+none.Name = "none"
+none.Parent = ScrollingFrame
+none.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none.Size = UDim2.new(1, 0, 0, 50)
+none.Font = Enum.Font.SourceSans
+none.Text = "none"
+none.TextColor3 = Color3.fromRGB(0, 0, 0)
+none.TextScaled = true
+none.TextSize = 14.000
+none.TextWrapped = true
+
+none_2.Name = "none"
+none_2.Parent = ScrollingFrame
+none_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_2.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_2.Size = UDim2.new(1, 0, 0, 50)
+none_2.Font = Enum.Font.SourceSans
+none_2.Text = "none"
+none_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_2.TextScaled = true
+none_2.TextSize = 14.000
+none_2.TextWrapped = true
+
+none_3.Name = "none"
+none_3.Parent = ScrollingFrame
+none_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_3.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_3.Size = UDim2.new(1, 0, 0, 50)
+none_3.Font = Enum.Font.SourceSans
+none_3.Text = "none"
+none_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_3.TextScaled = true
+none_3.TextSize = 14.000
+none_3.TextWrapped = true
+
+none_4.Name = "none"
+none_4.Parent = ScrollingFrame
+none_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_4.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_4.Size = UDim2.new(1, 0, 0, 50)
+none_4.Font = Enum.Font.SourceSans
+none_4.Text = "none"
+none_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_4.TextScaled = true
+none_4.TextSize = 14.000
+none_4.TextWrapped = true
+
+none_5.Name = "none"
+none_5.Parent = ScrollingFrame
+none_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_5.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_5.Size = UDim2.new(1, 0, 0, 50)
+none_5.Font = Enum.Font.SourceSans
+none_5.Text = "none"
+none_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_5.TextScaled = true
+none_5.TextSize = 14.000
+none_5.TextWrapped = true
+
+none_6.Name = "none"
+none_6.Parent = ScrollingFrame
+none_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_6.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_6.Size = UDim2.new(1, 0, 0, 50)
+none_6.Font = Enum.Font.SourceSans
+none_6.Text = "none"
+none_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_6.TextScaled = true
+none_6.TextSize = 14.000
+none_6.TextWrapped = true
+
+none_7.Name = "none"
+none_7.Parent = ScrollingFrame
+none_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_7.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_7.Size = UDim2.new(1, 0, 0, 50)
+none_7.Font = Enum.Font.SourceSans
+none_7.Text = "none"
+none_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_7.TextScaled = true
+none_7.TextSize = 14.000
+none_7.TextWrapped = true
+
+none_8.Name = "none"
+none_8.Parent = ScrollingFrame
+none_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_8.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_8.Size = UDim2.new(1, 0, 0, 50)
+none_8.Font = Enum.Font.SourceSans
+none_8.Text = "none"
+none_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_8.TextScaled = true
+none_8.TextSize = 14.000
+none_8.TextWrapped = true
+
+none_9.Name = "none"
+none_9.Parent = ScrollingFrame
+none_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_9.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_9.Size = UDim2.new(1, 0, 0, 50)
+none_9.Font = Enum.Font.SourceSans
+none_9.Text = "none"
+none_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_9.TextScaled = true
+none_9.TextSize = 14.000
+none_9.TextWrapped = true
+
+none_10.Name = "none"
+none_10.Parent = ScrollingFrame
+none_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_10.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_10.Size = UDim2.new(1, 0, 0, 50)
+none_10.Font = Enum.Font.SourceSans
+none_10.Text = "none"
+none_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_10.TextScaled = true
+none_10.TextSize = 14.000
+none_10.TextWrapped = true
+
+none_11.Name = "none"
+none_11.Parent = ScrollingFrame
+none_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_11.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_11.Size = UDim2.new(1, 0, 0, 50)
+none_11.Font = Enum.Font.SourceSans
+none_11.Text = "none"
+none_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_11.TextScaled = true
+none_11.TextSize = 14.000
+none_11.TextWrapped = true
+
+none_12.Name = "none"
+none_12.Parent = ScrollingFrame
+none_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_12.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_12.Size = UDim2.new(1, 0, 0, 50)
+none_12.Font = Enum.Font.SourceSans
+none_12.Text = "none"
+none_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_12.TextScaled = true
+none_12.TextSize = 14.000
+none_12.TextWrapped = true
+
+none_13.Name = "none"
+none_13.Parent = ScrollingFrame
+none_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_13.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_13.Size = UDim2.new(1, 0, 0, 50)
+none_13.Font = Enum.Font.SourceSans
+none_13.Text = "none"
+none_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_13.TextScaled = true
+none_13.TextSize = 14.000
+none_13.TextWrapped = true
+
+none_14.Name = "none"
+none_14.Parent = ScrollingFrame
+none_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_14.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_14.Size = UDim2.new(1, 0, 0, 50)
+none_14.Font = Enum.Font.SourceSans
+none_14.Text = "none"
+none_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_14.TextScaled = true
+none_14.TextSize = 14.000
+none_14.TextWrapped = true
+
+none_15.Name = "none"
+none_15.Parent = ScrollingFrame
+none_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_15.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_15.Size = UDim2.new(1, 0, 0, 50)
+none_15.Font = Enum.Font.SourceSans
+none_15.Text = "none"
+none_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_15.TextScaled = true
+none_15.TextSize = 14.000
+none_15.TextWrapped = true
+
+none_16.Name = "none"
+none_16.Parent = ScrollingFrame
+none_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_16.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_16.Size = UDim2.new(1, 0, 0, 50)
+none_16.Font = Enum.Font.SourceSans
+none_16.Text = "none"
+none_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_16.TextScaled = true
+none_16.TextSize = 14.000
+none_16.TextWrapped = true
+
+none_17.Name = "none"
+none_17.Parent = ScrollingFrame
+none_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_17.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_17.Size = UDim2.new(1, 0, 0, 50)
+none_17.Font = Enum.Font.SourceSans
+none_17.Text = "none"
+none_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_17.TextScaled = true
+none_17.TextSize = 14.000
+none_17.TextWrapped = true
+
+none_18.Name = "none"
+none_18.Parent = ScrollingFrame
+none_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_18.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_18.Size = UDim2.new(1, 0, 0, 50)
+none_18.Font = Enum.Font.SourceSans
+none_18.Text = "none"
+none_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_18.TextScaled = true
+none_18.TextSize = 14.000
+none_18.TextWrapped = true
+
+none_19.Name = "none"
+none_19.Parent = ScrollingFrame
+none_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_19.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_19.Size = UDim2.new(1, 0, 0, 50)
+none_19.Font = Enum.Font.SourceSans
+none_19.Text = "none"
+none_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_19.TextScaled = true
+none_19.TextSize = 14.000
+none_19.TextWrapped = true
+
+none_20.Name = "none"
+none_20.Parent = ScrollingFrame
+none_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_20.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_20.Size = UDim2.new(1, 0, 0, 50)
+none_20.Font = Enum.Font.SourceSans
+none_20.Text = "none"
+none_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_20.TextScaled = true
+none_20.TextSize = 14.000
+none_20.TextWrapped = true
+
+none_21.Name = "none"
+none_21.Parent = ScrollingFrame
+none_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_21.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_21.Size = UDim2.new(1, 0, 0, 50)
+none_21.Font = Enum.Font.SourceSans
+none_21.Text = "none"
+none_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_21.TextScaled = true
+none_21.TextSize = 14.000
+none_21.TextWrapped = true
+
+none_22.Name = "none"
+none_22.Parent = ScrollingFrame
+none_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_22.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_22.Size = UDim2.new(1, 0, 0, 50)
+none_22.Font = Enum.Font.SourceSans
+none_22.Text = "none"
+none_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_22.TextScaled = true
+none_22.TextSize = 14.000
+none_22.TextWrapped = true
+
+none_23.Name = "none"
+none_23.Parent = ScrollingFrame
+none_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_23.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_23.Size = UDim2.new(1, 0, 0, 50)
+none_23.Font = Enum.Font.SourceSans
+none_23.Text = "none"
+none_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_23.TextScaled = true
+none_23.TextSize = 14.000
+none_23.TextWrapped = true
+
+none_24.Name = "none"
+none_24.Parent = ScrollingFrame
+none_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_24.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_24.Size = UDim2.new(1, 0, 0, 50)
+none_24.Font = Enum.Font.SourceSans
+none_24.Text = "none"
+none_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_24.TextScaled = true
+none_24.TextSize = 14.000
+none_24.TextWrapped = true
+
+none_25.Name = "none"
+none_25.Parent = ScrollingFrame
+none_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_25.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_25.Size = UDim2.new(1, 0, 0, 50)
+none_25.Font = Enum.Font.SourceSans
+none_25.Text = "none"
+none_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_25.TextScaled = true
+none_25.TextSize = 14.000
+none_25.TextWrapped = true
+
+none_26.Name = "none"
+none_26.Parent = ScrollingFrame
+none_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_26.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_26.Size = UDim2.new(1, 0, 0, 50)
+none_26.Font = Enum.Font.SourceSans
+none_26.Text = "none"
+none_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_26.TextScaled = true
+none_26.TextSize = 14.000
+none_26.TextWrapped = true
+
+none_27.Name = "none"
+none_27.Parent = ScrollingFrame
+none_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_27.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_27.Size = UDim2.new(1, 0, 0, 50)
+none_27.Font = Enum.Font.SourceSans
+none_27.Text = "none"
+none_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_27.TextScaled = true
+none_27.TextSize = 14.000
+none_27.TextWrapped = true
+
+none_28.Name = "none"
+none_28.Parent = ScrollingFrame
+none_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_28.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_28.Size = UDim2.new(1, 0, 0, 50)
+none_28.Font = Enum.Font.SourceSans
+none_28.Text = "none"
+none_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_28.TextScaled = true
+none_28.TextSize = 14.000
+none_28.TextWrapped = true
+
+none_29.Name = "none"
+none_29.Parent = ScrollingFrame
+none_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_29.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_29.Size = UDim2.new(1, 0, 0, 50)
+none_29.Font = Enum.Font.SourceSans
+none_29.Text = "none"
+none_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_29.TextScaled = true
+none_29.TextSize = 14.000
+none_29.TextWrapped = true
+
+none_30.Name = "none"
+none_30.Parent = ScrollingFrame
+none_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_30.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_30.Size = UDim2.new(1, 0, 0, 50)
+none_30.Font = Enum.Font.SourceSans
+none_30.Text = "none"
+none_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_30.TextScaled = true
+none_30.TextSize = 14.000
+none_30.TextWrapped = true
+
+none_31.Name = "none"
+none_31.Parent = ScrollingFrame
+none_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_31.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_31.Size = UDim2.new(1, 0, 0, 50)
+none_31.Font = Enum.Font.SourceSans
+none_31.Text = "none"
+none_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_31.TextScaled = true
+none_31.TextSize = 14.000
+none_31.TextWrapped = true
+
+none_32.Name = "none"
+none_32.Parent = ScrollingFrame
+none_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_32.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_32.Size = UDim2.new(1, 0, 0, 50)
+none_32.Font = Enum.Font.SourceSans
+none_32.Text = "none"
+none_32.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_32.TextScaled = true
+none_32.TextSize = 14.000
+none_32.TextWrapped = true
+
+none_33.Name = "none"
+none_33.Parent = ScrollingFrame
+none_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_33.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_33.Size = UDim2.new(1, 0, 0, 50)
+none_33.Font = Enum.Font.SourceSans
+none_33.Text = "none"
+none_33.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_33.TextScaled = true
+none_33.TextSize = 14.000
+none_33.TextWrapped = true
+
+none_34.Name = "none"
+none_34.Parent = ScrollingFrame
+none_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_34.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_34.Size = UDim2.new(1, 0, 0, 50)
+none_34.Font = Enum.Font.SourceSans
+none_34.Text = "none"
+none_34.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_34.TextScaled = true
+none_34.TextSize = 14.000
+none_34.TextWrapped = true
+
+none_35.Name = "none"
+none_35.Parent = ScrollingFrame
+none_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_35.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_35.Size = UDim2.new(1, 0, 0, 50)
+none_35.Font = Enum.Font.SourceSans
+none_35.Text = "none"
+none_35.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_35.TextScaled = true
+none_35.TextSize = 14.000
+none_35.TextWrapped = true
+
+none_36.Name = "none"
+none_36.Parent = ScrollingFrame
+none_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_36.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_36.Size = UDim2.new(1, 0, 0, 50)
+none_36.Font = Enum.Font.SourceSans
+none_36.Text = "none"
+none_36.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_36.TextScaled = true
+none_36.TextSize = 14.000
+none_36.TextWrapped = true
+
+none_37.Name = "none"
+none_37.Parent = ScrollingFrame
+none_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_37.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_37.Size = UDim2.new(1, 0, 0, 50)
+none_37.Font = Enum.Font.SourceSans
+none_37.Text = "none"
+none_37.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_37.TextScaled = true
+none_37.TextSize = 14.000
+none_37.TextWrapped = true
+
+none_38.Name = "none"
+none_38.Parent = ScrollingFrame
+none_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_38.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_38.Size = UDim2.new(1, 0, 0, 50)
+none_38.Font = Enum.Font.SourceSans
+none_38.Text = "none"
+none_38.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_38.TextScaled = true
+none_38.TextSize = 14.000
+none_38.TextWrapped = true
+
+none_39.Name = "none"
+none_39.Parent = ScrollingFrame
+none_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_39.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_39.Size = UDim2.new(1, 0, 0, 50)
+none_39.Font = Enum.Font.SourceSans
+none_39.Text = "none"
+none_39.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_39.TextScaled = true
+none_39.TextSize = 14.000
+none_39.TextWrapped = true
+
+none_40.Name = "none"
+none_40.Parent = ScrollingFrame
+none_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_40.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_40.Size = UDim2.new(1, 0, 0, 50)
+none_40.Font = Enum.Font.SourceSans
+none_40.Text = "none"
+none_40.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_40.TextScaled = true
+none_40.TextSize = 14.000
+none_40.TextWrapped = true
+
+none_41.Name = "none"
+none_41.Parent = ScrollingFrame
+none_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_41.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_41.Size = UDim2.new(1, 0, 0, 50)
+none_41.Font = Enum.Font.SourceSans
+none_41.Text = "none"
+none_41.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_41.TextScaled = true
+none_41.TextSize = 14.000
+none_41.TextWrapped = true
+
+none_42.Name = "none"
+none_42.Parent = ScrollingFrame
+none_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_42.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_42.Size = UDim2.new(1, 0, 0, 50)
+none_42.Font = Enum.Font.SourceSans
+none_42.Text = "none"
+none_42.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_42.TextScaled = true
+none_42.TextSize = 14.000
+none_42.TextWrapped = true
+
+none_43.Name = "none"
+none_43.Parent = ScrollingFrame
+none_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_43.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_43.Size = UDim2.new(1, 0, 0, 50)
+none_43.Font = Enum.Font.SourceSans
+none_43.Text = "none"
+none_43.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_43.TextScaled = true
+none_43.TextSize = 14.000
+none_43.TextWrapped = true
+
+none_44.Name = "none"
+none_44.Parent = ScrollingFrame
+none_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_44.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_44.Size = UDim2.new(1, 0, 0, 50)
+none_44.Font = Enum.Font.SourceSans
+none_44.Text = "none"
+none_44.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_44.TextScaled = true
+none_44.TextSize = 14.000
+none_44.TextWrapped = true
+
+none_45.Name = "none"
+none_45.Parent = ScrollingFrame
+none_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_45.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_45.Size = UDim2.new(1, 0, 0, 50)
+none_45.Font = Enum.Font.SourceSans
+none_45.Text = "none"
+none_45.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_45.TextScaled = true
+none_45.TextSize = 14.000
+none_45.TextWrapped = true
+
+none_46.Name = "none"
+none_46.Parent = ScrollingFrame
+none_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_46.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_46.Size = UDim2.new(1, 0, 0, 50)
+none_46.Font = Enum.Font.SourceSans
+none_46.Text = "none"
+none_46.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_46.TextScaled = true
+none_46.TextSize = 14.000
+none_46.TextWrapped = true
+
+none_47.Name = "none"
+none_47.Parent = ScrollingFrame
+none_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_47.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_47.Size = UDim2.new(1, 0, 0, 50)
+none_47.Font = Enum.Font.SourceSans
+none_47.Text = "none"
+none_47.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_47.TextScaled = true
+none_47.TextSize = 14.000
+none_47.TextWrapped = true
+
+none_48.Name = "none"
+none_48.Parent = ScrollingFrame
+none_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_48.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_48.Size = UDim2.new(1, 0, 0, 50)
+none_48.Font = Enum.Font.SourceSans
+none_48.Text = "none"
+none_48.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_48.TextScaled = true
+none_48.TextSize = 14.000
+none_48.TextWrapped = true
+
+none_49.Name = "none"
+none_49.Parent = ScrollingFrame
+none_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_49.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_49.Size = UDim2.new(1, 0, 0, 50)
+none_49.Font = Enum.Font.SourceSans
+none_49.Text = "none"
+none_49.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_49.TextScaled = true
+none_49.TextSize = 14.000
+none_49.TextWrapped = true
+
+none_50.Name = "none"
+none_50.Parent = ScrollingFrame
+none_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_50.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_50.Size = UDim2.new(1, 0, 0, 50)
+none_50.Font = Enum.Font.SourceSans
+none_50.Text = "none"
+none_50.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_50.TextScaled = true
+none_50.TextSize = 14.000
+none_50.TextWrapped = true
+
+none_51.Name = "none"
+none_51.Parent = ScrollingFrame
+none_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_51.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_51.Size = UDim2.new(1, 0, 0, 50)
+none_51.Font = Enum.Font.SourceSans
+none_51.Text = "none"
+none_51.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_51.TextScaled = true
+none_51.TextSize = 14.000
+none_51.TextWrapped = true
+
+none_52.Name = "none"
+none_52.Parent = ScrollingFrame
+none_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_52.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_52.Size = UDim2.new(1, 0, 0, 50)
+none_52.Font = Enum.Font.SourceSans
+none_52.Text = "none"
+none_52.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_52.TextScaled = true
+none_52.TextSize = 14.000
+none_52.TextWrapped = true
+
+none_53.Name = "none"
+none_53.Parent = ScrollingFrame
+none_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_53.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_53.Size = UDim2.new(1, 0, 0, 50)
+none_53.Font = Enum.Font.SourceSans
+none_53.Text = "none"
+none_53.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_53.TextScaled = true
+none_53.TextSize = 14.000
+none_53.TextWrapped = true
+
+none_54.Name = "none"
+none_54.Parent = ScrollingFrame
+none_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_54.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_54.Size = UDim2.new(1, 0, 0, 50)
+none_54.Font = Enum.Font.SourceSans
+none_54.Text = "none"
+none_54.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_54.TextScaled = true
+none_54.TextSize = 14.000
+none_54.TextWrapped = true
+
+none_55.Name = "none"
+none_55.Parent = ScrollingFrame
+none_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+none_55.Position = UDim2.new(0.0195599031, 0, -0.0281786937, 0)
+none_55.Size = UDim2.new(1, 0, 0, 50)
+none_55.Font = Enum.Font.SourceSans
+none_55.Text = "none"
+none_55.TextColor3 = Color3.fromRGB(0, 0, 0)
+none_55.TextScaled = true
+none_55.TextSize = 14.000
+none_55.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.435207784, 0, 0.872852206, 0)
+TextLabel_3.Size = UDim2.new(0, 186, 0, 36)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextButton_2.Parent = main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 0.700
+TextButton_2.Size = UDim2.new(0, 83, 0, 36)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "open"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+-- Scripts:
+
+local function FKDYR_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	local scroll = script.Parent.Parent.ScrollingFrame -- CHANGE THIS TO YOUR SCROLLING FRAME
+	local textBox = script.Parent -- CHANGE THIS TO YOUR TEXT BOX
+	
+	textBox.Changed:Connect(function() -- when the text is changed
+		local text = textBox.Text:lower() -- lowercase search bar text
+		if text ~= "" then -- if it has text
+			local buttons = scroll:GetDescendants() -- all of the buttons
+			for _, button in pairs(buttons) do -- loops through the buttons
+				if button:IsA("TextButton") then -- if it's a button
+					local buttonText = button.Text:lower() -- lowercase button text
+					if string.find(buttonText, text) then -- if search bar text is found in the button's text
+						button.Visible = true -- shows button
+					else -- otherwise
+						button.Visible = false -- hides button
+					end
+				end
+			end
+		else -- if it's empty
+			local buttons = scroll:GetDescendants() -- all buttons
+			for _, button in pairs(buttons) do -- loops through buttons
+				if button:IsA("TextButton") then -- if it's a button
+					button.Visible = true -- shows button
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(FKDYR_fake_script)()
+local function HRMF_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Frame.Visible = false
+	end)
+end
+coroutine.wrap(HRMF_fake_script)()
+local function FOVZPS_fake_script() -- islandsguibywYn5984.LocalScript 
+	local script = Instance.new('LocalScript', islandsguibywYn5984)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://void-scripts.com/Scripts/islands.lua%22))()
+	end)
+end
+coroutine.wrap(FOVZPS_fake_script)()
+local function USTMNDP_fake_script() -- islandsgui2.LocalScript 
+	local script = Instance.new('LocalScript', islandsgui2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://system-exodus.com/scripts/Islands/Islands.lua',true))()
+	end)
+end
+coroutine.wrap(USTMNDP_fake_script)()
+local function BTKOJ_fake_script() -- darkhub.LocalScript 
+	local script = Instance.new('LocalScript', darkhub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/yCrBkPaY"))()
+	end)
+end
+coroutine.wrap(BTKOJ_fake_script)()
+local function NYXTZ_fake_script() -- AllStarTowerDefenseHackwithautofarm.LocalScript 
+	local script = Instance.new('LocalScript', AllStarTowerDefenseHackwithautofarm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(NYXTZ_fake_script)()
+local function NKPM_fake_script() -- DungeonQuestHackWinclickmeingametouse.LocalScript 
+	local script = Instance.new('LocalScript', DungeonQuestHackWinclickmeingametouse)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		setsimulationradius(math.huge,math.huge)
+		for i,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Humanoid") and v.Parent:FindFirstChild("enemyStyle") then
+				v.Health = 0
+			end
+		end
+		workspace.DescendantAdded:Connect(function(d)
+			pcall(function()
+				repeat wait() until d.Parent:FindFirstChild("enemyStyle")
+				if d:IsA("Humanoid") then
+					d.Health=0
+				end
+			end)
+		end)
+	end)
+end
+coroutine.wrap(NKPM_fake_script)()
+local function BTVTB_fake_script() -- none.LocalScript 
+	local script = Instance.new('LocalScript', none)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(BTVTB_fake_script)()
+local function FQMPJW_fake_script() -- none_2.LocalScript 
+	local script = Instance.new('LocalScript', none_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(FQMPJW_fake_script)()
+local function EQLL_fake_script() -- none_3.LocalScript 
+	local script = Instance.new('LocalScript', none_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(EQLL_fake_script)()
+local function WJOZ_fake_script() -- none_4.LocalScript 
+	local script = Instance.new('LocalScript', none_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(WJOZ_fake_script)()
+local function UEQGT_fake_script() -- none_5.LocalScript 
+	local script = Instance.new('LocalScript', none_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(UEQGT_fake_script)()
+local function GDVE_fake_script() -- none_6.LocalScript 
+	local script = Instance.new('LocalScript', none_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(GDVE_fake_script)()
+local function TYZBCT_fake_script() -- none_7.LocalScript 
+	local script = Instance.new('LocalScript', none_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(TYZBCT_fake_script)()
+local function MOHQAQ_fake_script() -- none_8.LocalScript 
+	local script = Instance.new('LocalScript', none_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(MOHQAQ_fake_script)()
+local function DBCEL_fake_script() -- none_9.LocalScript 
+	local script = Instance.new('LocalScript', none_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(DBCEL_fake_script)()
+local function CKXUA_fake_script() -- none_10.LocalScript 
+	local script = Instance.new('LocalScript', none_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(CKXUA_fake_script)()
+local function IANQK_fake_script() -- none_11.LocalScript 
+	local script = Instance.new('LocalScript', none_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(IANQK_fake_script)()
+local function CZAG_fake_script() -- none_12.LocalScript 
+	local script = Instance.new('LocalScript', none_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(CZAG_fake_script)()
+local function NLGJ_fake_script() -- none_13.LocalScript 
+	local script = Instance.new('LocalScript', none_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(NLGJ_fake_script)()
+local function ZRJOA_fake_script() -- none_14.LocalScript 
+	local script = Instance.new('LocalScript', none_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(ZRJOA_fake_script)()
+local function GCPSXH_fake_script() -- none_15.LocalScript 
+	local script = Instance.new('LocalScript', none_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(GCPSXH_fake_script)()
+local function MYCJ_fake_script() -- none_16.LocalScript 
+	local script = Instance.new('LocalScript', none_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(MYCJ_fake_script)()
+local function ANTGDDY_fake_script() -- none_17.LocalScript 
+	local script = Instance.new('LocalScript', none_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(ANTGDDY_fake_script)()
+local function KTFZRX_fake_script() -- none_18.LocalScript 
+	local script = Instance.new('LocalScript', none_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(KTFZRX_fake_script)()
+local function TQJAKL_fake_script() -- none_19.LocalScript 
+	local script = Instance.new('LocalScript', none_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(TQJAKL_fake_script)()
+local function EAOOO_fake_script() -- none_20.LocalScript 
+	local script = Instance.new('LocalScript', none_20)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(EAOOO_fake_script)()
+local function BABCJHW_fake_script() -- none_21.LocalScript 
+	local script = Instance.new('LocalScript', none_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(BABCJHW_fake_script)()
+local function SPKSR_fake_script() -- none_22.LocalScript 
+	local script = Instance.new('LocalScript', none_22)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(SPKSR_fake_script)()
+local function WCPC_fake_script() -- none_23.LocalScript 
+	local script = Instance.new('LocalScript', none_23)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(WCPC_fake_script)()
+local function BURGA_fake_script() -- none_24.LocalScript 
+	local script = Instance.new('LocalScript', none_24)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(BURGA_fake_script)()
+local function CSUEQM_fake_script() -- none_25.LocalScript 
+	local script = Instance.new('LocalScript', none_25)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(CSUEQM_fake_script)()
+local function FPIRTAX_fake_script() -- none_26.LocalScript 
+	local script = Instance.new('LocalScript', none_26)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(FPIRTAX_fake_script)()
+local function LHLY_fake_script() -- none_27.LocalScript 
+	local script = Instance.new('LocalScript', none_27)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(LHLY_fake_script)()
+local function ZESDAD_fake_script() -- none_28.LocalScript 
+	local script = Instance.new('LocalScript', none_28)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(ZESDAD_fake_script)()
+local function APLOD_fake_script() -- none_29.LocalScript 
+	local script = Instance.new('LocalScript', none_29)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(APLOD_fake_script)()
+local function EPLRZJP_fake_script() -- none_30.LocalScript 
+	local script = Instance.new('LocalScript', none_30)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(EPLRZJP_fake_script)()
+local function HUAI_fake_script() -- none_31.LocalScript 
+	local script = Instance.new('LocalScript', none_31)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(HUAI_fake_script)()
+local function PZIXLWK_fake_script() -- none_32.LocalScript 
+	local script = Instance.new('LocalScript', none_32)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(PZIXLWK_fake_script)()
+local function XVQGD_fake_script() -- none_33.LocalScript 
+	local script = Instance.new('LocalScript', none_33)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(XVQGD_fake_script)()
+local function YMYZ_fake_script() -- none_34.LocalScript 
+	local script = Instance.new('LocalScript', none_34)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(YMYZ_fake_script)()
+local function XXME_fake_script() -- none_35.LocalScript 
+	local script = Instance.new('LocalScript', none_35)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(XXME_fake_script)()
+local function ARGBDUQ_fake_script() -- none_36.LocalScript 
+	local script = Instance.new('LocalScript', none_36)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(ARGBDUQ_fake_script)()
+local function MNCIVE_fake_script() -- none_37.LocalScript 
+	local script = Instance.new('LocalScript', none_37)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(MNCIVE_fake_script)()
+local function KGUG_fake_script() -- none_38.LocalScript 
+	local script = Instance.new('LocalScript', none_38)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(KGUG_fake_script)()
+local function XBZWX_fake_script() -- none_39.LocalScript 
+	local script = Instance.new('LocalScript', none_39)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(XBZWX_fake_script)()
+local function NIOQ_fake_script() -- none_40.LocalScript 
+	local script = Instance.new('LocalScript', none_40)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(NIOQ_fake_script)()
+local function KFFE_fake_script() -- none_41.LocalScript 
+	local script = Instance.new('LocalScript', none_41)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(KFFE_fake_script)()
+local function TEKUD_fake_script() -- none_42.LocalScript 
+	local script = Instance.new('LocalScript', none_42)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(TEKUD_fake_script)()
+local function BAGU_fake_script() -- none_43.LocalScript 
+	local script = Instance.new('LocalScript', none_43)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(BAGU_fake_script)()
+local function LHUTCHO_fake_script() -- none_44.LocalScript 
+	local script = Instance.new('LocalScript', none_44)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(LHUTCHO_fake_script)()
+local function XDUK_fake_script() -- none_45.LocalScript 
+	local script = Instance.new('LocalScript', none_45)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(XDUK_fake_script)()
+local function GIRYL_fake_script() -- none_46.LocalScript 
+	local script = Instance.new('LocalScript', none_46)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(GIRYL_fake_script)()
+local function DMCTHZ_fake_script() -- none_47.LocalScript 
+	local script = Instance.new('LocalScript', none_47)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(DMCTHZ_fake_script)()
+local function VSLCYVP_fake_script() -- none_48.LocalScript 
+	local script = Instance.new('LocalScript', none_48)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(VSLCYVP_fake_script)()
+local function DPIPNVD_fake_script() -- none_49.LocalScript 
+	local script = Instance.new('LocalScript', none_49)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(DPIPNVD_fake_script)()
+local function BRGE_fake_script() -- none_50.LocalScript 
+	local script = Instance.new('LocalScript', none_50)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(BRGE_fake_script)()
+local function UKKFOBO_fake_script() -- none_51.LocalScript 
+	local script = Instance.new('LocalScript', none_51)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(UKKFOBO_fake_script)()
+local function WOLBGEW_fake_script() -- none_52.LocalScript 
+	local script = Instance.new('LocalScript', none_52)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(WOLBGEW_fake_script)()
+local function ECXBJI_fake_script() -- none_53.LocalScript 
+	local script = Instance.new('LocalScript', none_53)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(ECXBJI_fake_script)()
+local function MXHEZLO_fake_script() -- none_54.LocalScript 
+	local script = Instance.new('LocalScript', none_54)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(MXHEZLO_fake_script)()
+local function GZAJC_fake_script() -- none_55.LocalScript 
+	local script = Instance.new('LocalScript', none_55)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	end)
+end
+coroutine.wrap(GZAJC_fake_script)()
+local function XFSA_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	while wait(1) do
+		script.Parent.Text = "This hack menu will make everyone cry"
+		wait(5)
+		script.Parent.Text = "Go get them"
+		wait(5)
+		script.Parent.Text = "Last updated 1/19/2021"
+		wait(5)
+		script.Parent.Text = "Last added new scripts"
+		wait(5)
+		script.Parent.Text = "More coming soon"
+		wait(5)
+	end
+end
+coroutine.wrap(XFSA_fake_script)()
+local function MWOQ_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame.Visible = true
+	end)
+end
+coroutine.wrap(MWOQ_fake_script)()
