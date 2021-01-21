@@ -1,10 +1,3 @@
-print("main")
-
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local main = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
@@ -76,10 +69,9 @@ local none_55 = Instance.new("TextButton")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextButton_2 = Instance.new("TextButton")
 
---Properties:
-
 main.Name = "main"
-main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+main.Parent = game.CoreGui
+
 
 Frame.Name = "Frame"
 Frame.Parent = main
@@ -949,7 +941,7 @@ local function FOVZPS_fake_script() -- islandsguibywYn5984.LocalScript
 	local script = Instance.new('LocalScript', islandsguibywYn5984)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("http://void-scripts.com/Scripts/islands.lua%22))()
+		
 	end)
 end
 coroutine.wrap(FOVZPS_fake_script)()
